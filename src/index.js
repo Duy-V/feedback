@@ -1,17 +1,13 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
+// Đây là file JS chính.
+
+import React from "react";
+import ReactDOM from "react-dom";
 import './index.css';
 import App from './App';
-import reportWebVitals from './reportWebVitals';
-
+ // argument thứ nhất là thành phần muốn thêm vào, argument thứ hai là nơi mà thành phần thứ nhất muốn thêm vào. Lúc này ta dùng DOM để bắt nơi cho thành phần thứ nhất ở.
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
-);
-
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+<React.StrictMode>
+<App />
+    
+    </React.StrictMode>
+, document.getElementById('root'))
