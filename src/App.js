@@ -17,7 +17,7 @@ if(window.confirm('Are you sure you want to delete?')){
     }
     return (
         <>
-        <Header/>
+        <Header />
         <div className="container">
             <FeedbackForm handleAdd={addFeedback}/>
             <FeedbackStats feedback={feedback} />

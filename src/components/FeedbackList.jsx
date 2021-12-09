@@ -44,3 +44,5 @@ FeedbackList.propTypes = {
 export default FeedbackList;
 //?? cach dung thu vien import { motion } from "framer-motion"
 // lúc em cài cái thư viện import { motion } from "framer-motion" phiên bản e cài là 5.4, còn phiên bản tỏng clip là 4.4. Do có sự khác biệt về phiên bản nên synxtax viết nó cùng kahcs nên lúc khi em viết theo video thì nó bị lỗi hả anh.???????
+//???? cachs xóa mấy file bị lỗi trên github thì làm soa anh
+// ???anh giang sơ cho em những thứ cần chứ ý khi dùng Github
