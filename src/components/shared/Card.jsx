@@ -14,7 +14,7 @@ return(
 Card.defaultProps = {
     reverse: false,
 }
-Card.ropTypes = {
+Card.propTypes = {
     children: PropTypes.node.isRequired,
     reverse: PropTypes.bool,
 
